@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/jinlongfeng/Desktop/Cmake/demo4/config.h
+
+/Users/jinlongfeng/Desktop/Cmake/demo4/main.cc
+stdio.h
+-
+stdlib.h
+-
+config.h
+/Users/jinlongfeng/Desktop/Cmake/demo4/config.h
+math/MathCalc.h
+/Users/jinlongfeng/Desktop/Cmake/demo4/math/MathCalc.h
+math.h
+-
+
+/Users/jinlongfeng/Desktop/Cmake/demo4/math/MathCalc.h
+
